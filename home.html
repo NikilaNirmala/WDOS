@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discount Mart (Home)</title>
+    <!--Styling sheet links-->
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <!--javascript links-->
+    <!--Icon packs-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/headerFooter.css" />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!---->
+  </head>
+  <body>
+    <header>
+      <nav>
+        <i class="bx bx-search-alt-2" id="nav-search"></i>
+        <img src="./images/logo/dmart.png" alt="" id="logo" />
+        <ul id="main-nav">
+          <li class="navigations text-enlarge"><a href="">Home</a></li>
+          <li class="navigations text-enlarge"><a href="">Categories</a></li>
+          <li class="navigations text-enlarge"><a href="">About</a></li>
+          <li class="navigations text-enlarge">
+            <a href="">Loyalty Registration</a>
+          </li>
+        </ul>
+        <section id="side-nav">
+          <section id="number-of-orders">
+            <span id="order-counter">0</span>
+          </section>
+          <img
+            id="order-button"
+            class="text-enlarge"
+            src="./images/icons/solar--cart-3-bold-duotone.svg"
+            alt=""
+          /><img
+            id="user-button"
+            class="text-enlarge"
+            src="./images/icons/solar--user-bold-duotone.svg"
+            alt=""
+          />
+        </section>
+      </nav>
+    </header>
+    <main>
+      <section id="mobile-menu">
+        <section class="menu-item">
+          <i class="bx bx-home-smile font-resize"></i>
+          <h3>Home</h3>
+        </section>
+        <section class="menu-item">
+          <i class="bx bx-category font-resize"></i>
+          <h3>Categories</h3>
+        </section>
+        <section class="menu-item">
+          <i class="bx bx-info-circle font-resize"></i>
+          <h3>About</h3>
+        </section>
+        <section class="menu-item">
+          <i class="bx bx-crown font-resize"></i>
+          <h3>Loyalty <br />Registration</h3>
+        </section>
+      </section>
+      <section id="welcome-box">
+        <img src="./images/welcome_image.png" alt="" id="welcome-image" />
+      </section>
+      <section id="service-section-homepage">
+        <h3 id="service-heading">Services</h3>
+        <section id="main-service-box">
+          <section class="service bg-gradient-red text-enlarge">
+            <i class="bx bxs-package"></i>Free Delivery
+          </section>
+          <section class="service bg-gradient-green text-enlarge">
+            <i class="bx bx-refresh"></i>Fresh Products
+          </section>
+          <section class="service bg-gradient-orange text-enlarge">
+            <i class="bx bxs-discount"></i>Discounts
+          </section>
+          <section class="service bg-gradient-purple text-enlarge">
+            <i class="bx bxs-calendar-event"></i>Events
+          </section>
+        </section>
+      </section>
+      <section id="search-container">
+        <h2 class="search-description">Search for a item</h2>
+        <section id="search-bar-container">
+          <section id="search-bar">
+            <input type="text" placeholder="Search...." id="search-input" />
+            <section id="circle" class="text-enlarge">
+              <i class="bx bx-search-alt-2"></i>
+            </section>
+          </section>
+        </section>
+      </section>
+      <article class="special-item-container ultimate-item-bg">
+        <h3 class="special-item-name">Ultimate Discounts</h3>
+        <section class="item-container">
+          <section class="item-scroll-container">
+            <article class="item">
+              <img
+                src="./images/products/tomato.png"
+                alt=""
+                class="item-image"
+              />
+              <section class="discount green-gradient-bg">
+                <h3>30%</h3>
+              </section>
+              <section class="item-info">
+                <h3 class="item-name">Tomato</h3>
+                <h3 class="price-quantity">
+                  <span class="vegetable">Rs:690.00</span> / 100g
+                </h3>
+              </section>
+              <section class="order">
+                <button class="text-enlarge">Add to cart</button>
+              </section>
+            </article>
+            <article class="item">
+              <img
+                src="./images/products/brocoly.png"
+                alt=""
+                class="item-image"
+              />
+              <section class="discount green-gradient-bg"><h3>30%</h3></section>
+              <section class="item-info">
+                <h3 class="item-name">brocoly</h3>
+                <h3 class="price-quantity">
+                  <span class="vegetable">Rs:800.00</span> / 100g
+                </h3>
+              </section>
+              <section class="order">
+                <button class="text-enlarge">Add to cart</button>
+              </section>
+            </article>
+            <article class="item">
+              <img
+                src="./images/products/anchor-milkpowder.png"
+                alt=""
+                class="item-image"
+              />
+              <section class="discount blue-gradient-bg"><h3>30%</h3></section>
+              <section class="item-info">
+                <h3 class="item-name">Anchor Milk Powder</h3>
+                <h3 class="price-quantity">
+                  <span class="diary">Rs:555.00</span> / 200g
+                </h3>
+              </section>
+              <section class="order">
+                <button class="text-enlarge">Add to cart</button>
+              </section>
+            </article>
+            <article class="item">
+              <img
+                src="./images/products/BELLOSE-Oxidizer-1L.png"
+                alt=""
+                class="item-image"
+              />
+              <section class="discount pink-gradient-bg"><h3>30%</h3></section>
+              <section class="item-info">
+                <h3 class="item-name">Bellose Oxidizer</h3>
+                <h3 class="price-quantity">
+                  <span class="cosmetics">Rs:2690.00</span> / 1Litre
+                </h3>
+              </section>
+              <section class="order">
+                <button class="text-enlarge">Add to cart</button>
+              </section>
+            </article>
+          </section>
+        </section>
+      </article>
+      <article class="special-item-description ultimate-item-bg">
+        <p>
+          Save money on your shopping and get all your favourite items at
+          affordable prices! Our Ultimate Discount section offers unbeatable
+          prices on pantry and fridge essentials. We offer a wide range of
+          products, including affordable fruits and essential grocery items.
+          Take advantage of these exclusive offers at Discount Mart and enjoy
+          incredible savings at the supermarket!
+        </p>
+      </article>
+      <article class="special-item-container popular-item-bg">
+        <h3 class="special-item-name">Popular items</h3>
+        <section class="item-container">
+          <section class="item-scroll-container">
+            <article class="item">
+              <img
+                src="./images/products/tomato.png"
+                alt=""
+                class="item-image"
+              />
+              <section class="discount green-gradient-bg">
+                <h3>30%</h3>
+              </section>
+              <section class="item-info">
+                <h3 class="item-name">Tomato</h3>
+                <h3 class="price-quantity">
+                  <span class="vegetable">Rs:690.00</span> / 100g
+                </h3>
+              </section>
+              <section class="order">
+                <button class="text-enlarge">Add to cart</button>
+              </section>
+            </article>
+            <article class="item">
+              <img
+                src="./images/products/richlife-iced-coffee.png"
+                alt=""
+                class="item-image"
+              />
+              <section class="discount blue-gradient-bg"><h3>20%</h3></section>
+              <section class="item-info">
+                <h3 class="item-name">Richlife Iced Coffee</h3>
+                <h3 class="price-quantity">
+                  <span class="diary">Rs:690.00</span> / 1litre
+                </h3>
+              </section>
+              <section class="order">
+                <button class="text-enlarge">Add to cart</button>
+              </section>
+            </article>
+            <article class="item">
+              <img
+                src="./images/products/anchor-yoghurt.png"
+                alt=""
+                class="item-image"
+              />
+              <section class="discount blue-gradient-bg"><h3>20%</h3></section>
+              <section class="item-info">
+                <h3 class="item-name">Anchor Yoghurt</h3>
+                <h3 class="price-quantity">
+                  <span class="diary">Rs:70.00</span> / 80g
+                </h3>
+              </section>
+              <section class="order">
+                <button class="text-enlarge">Add to cart</button>
+              </section>
+            </article>
+            <article class="item">
+              <img
+                src="./images/products/Compact-powder.png"
+                alt=""
+                class="item-image"
+              />
+              <section class="discount pink-gradient-bg"><h3>10%</h3></section>
+              <section class="item-info">
+                <h3 class="item-name">Compact Powder</h3>
+                <h3 class="price-quantity">
+                  <span class="cosmetics">Rs:2170.00</span> / Unit
+                </h3>
+              </section>
+              <section class="order">
+                <button class="text-enlarge">Add to cart</button>
+              </section>
+            </article>
+          </section>
+        </section>
+      </article>
+      <article class="special-item-description popular-item-bg">
+        <p>
+          Seeking culinary inspiration or beloved recipes for the whole family?
+          Check out our highly sought-after collection! Here's a selection of
+          our most popular products. We offer a wide selection of seasonal
+          treats, and budget-friendly staples to satisfy all your cravings.
+          Discover our collection of top-selling products at Discount Mart and
+          find your new favourites today!
+        </p>
+      </article>
+      <article class="special-item-container new-arrival-bg">
+        <h3 class="special-item-name">New Arrivals</h3>
+        <section class="item-container">
+          <section class="item-scroll-container">
+            <article class="item">
+              <img
+                src="./images/products/anchor-cream-cheese.png"
+                alt=""
+                class="item-image"
+              />
+              <section class="discount blue-gradient-bg">
+                <h3>20%</h3>
+              </section>
+              <section class="item-info">
+                <h3 class="item-name">Anchor Cream Cheese</h3>
+                <h3 class="price-quantity">
+                  <span class="diary">Rs:9000.00</span> / 1 litre
+                </h3>
+              </section>
+              <section class="order">
+                <button class="text-enlarge">Add to cart</button>
+              </section>
+            </article>
+            <article class="item">
+              <img
+                src="./images/products/dramat-eye-liner.png"
+                alt=""
+                class="item-image"
+              />
+              <section class="discount pink-gradient-bg"><h3>30%</h3></section>
+              <section class="item-info">
+                <h3 class="item-name">Dramat Eye Liner</h3>
+                <h3 class="price-quantity">
+                  <span class="cosmetics">Rs:1450.00</span> / Unit
+                </h3>
+              </section>
+              <section class="order">
+                <button class="text-enlarge">Add to cart</button>
+              </section>
+            </article>
+            <article class="item">
+              <img
+                src="./images/products/aloe-vera-handwash.png"
+                alt=""
+                class="item-image"
+              />
+              <section class="discount pink-gradient-bg"><h3>10%</h3></section>
+              <section class="item-info">
+                <h3 class="item-name">Aloe Vera Handwash</h3>
+                <h3 class="price-quantity">
+                  <span class="cosmetics">Rs:680.00</span> / Unit
+                </h3>
+              </section>
+              <section class="order">
+                <button class="text-enlarge">Add to cart</button>
+              </section>
+            </article>
+            <article class="item">
+              <img
+                src="images/products/energizing-blend shampoo.png"
+                alt=""
+                class="item-image"
+              />
+              <section class="discount pink-gradient-bg"><h3>10%</h3></section>
+              <section class="item-info">
+                <h3 class="item-name">Energizing Shampoo</h3>
+                <h3 class="price-quantity">
+                  <span class="cosmetics">Rs:5400.00</span> / Unit
+                </h3>
+              </section>
+              <section class="order">
+                <button class="text-enlarge">Add to cart</button>
+              </section>
+            </article>
+          </section>
+        </section>
+      </article>
+      <article class="special-item-description new-arrival-bg">
+        <p>
+          Get ready to explore the newest deals and promotions at Discount Mart!
+          Our New Arrivals section offers a wide selection of exclusive and
+          captivating items that are perfect for every season. Explore our
+          aisles and uncover hidden treasures that are sure to catch your eye.
+          Discover our wide selection of the latest health food trends and a
+          variety of delectable international ingredients to meet your daily
+          needs. Discover our latest collection of must-have supermarket
+          essentials in our New Arrivals area. Don't miss out, visit us today!
+        </p>
+      </article>
+    </main>
+    <footer>
+      <section id="social-media">
+        <img
+          class="social-media-links"
+          src="./images/icons/ic--round-facebook.svg"
+          alt=""
+        /><img
+          src="./images/icons/ic--sharp-whatsapp.svg"
+          alt=""
+          class="social-media-links"
+        /><img
+          src="./images/icons/uil--instagram.svg"
+          alt=""
+          class="social-media-links"
+        />
+      </section>
+      <section id="main-footer">
+        <article id="company-info" class="bg-white">
+          <img src="./images/logo/dmart.png" alt="" id="company-logo" />
+          <p><span class="bold-text">Email:</span> Discountmart@gmail.com</p>
+          <p><span class="bold-text">Contact.No:</span> 078-9093605</p>
+          <p>
+            <span class="bold-text">Address:</span> 132/A, Kandy, Pilimathalawa
+          </p>
+        </article>
+        <article id="middle-section" class="bg-white">
+          <section id="payment-methods">
+            <h3 class="payment-info">Payment methods</h3>
+            <section id="payment-icons">
+              <img
+                src="./images/icons/fontisto--paypal.svg"
+                alt=""
+                class="payment-icon"
+              /><img
+                src="./images/icons/logos--mastercard.svg"
+                alt=""
+                class="payment-icon"
+              /><img
+                src="./images/icons/logos--visa.svg"
+                alt=""
+                class="payment-icon"
+              />
+            </section>
+          </section>
+          <h3 class="top-margin">Quick Links</h3>
+          <ul id="quick-links">
+            <li class="quick-link"><a href="">Home</a></li>
+            <li class="quick-link"><a href="">Categories</a></li>
+            <li class="quick-link"><a href="">About</a></li>
+            <li class="quick-link">
+              <a href="">Loyalty Registration</a>
+            </li>
+          </ul>
+        </article>
+        <ol id="available-locations" class="bg-white">
+          <li class="locations">location1</li>
+          <li class="locations">location2</li>
+          <li class="locations">location3</li>
+        </ol>
+      </section>
+      <section id="copyright">
+        <p class="bold-text">
+          Copyright &copy; 2024 Discount-Mart Marketing Services (Pvt) Ltd. All
+          Rights Reserved
+        </p>
+      </section>
+    </footer>
+  </body>
+</html>

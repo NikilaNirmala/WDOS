@@ -1,0 +1,184 @@
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-description {
+    width: 96vw;
+    height: 96vh;
+    border: 1px solid var(--transparent-black);
+    border-radius: 10px;
+    margin: auto;
+    text-justify: inter-word;
+    text-align: center;
+    background-image: url(../images/diaryMainImage.webp);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    margin-top: 2rem;
+
+}
+
+.main-description p {
+    margin-bottom: 12rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--black);
+    background-color: rgba(248, 248, 248, 0.784);
+    border-radius: 10px;
+}
+
+#product-heading {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.item {
+    height: 300px;
+    width: 260px;
+    border: 1px solid rgba(0,0,0,.4);
+    margin: 1rem 3rem 1rem 3rem;
+    background-color: var(--white);
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 0 2px;
+
+}
+
+.discount {
+    display: flex;
+    height: 98px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 85px;
+    border: 1px solid var(--transparent-black);
+    box-shadow: 0 0 5px;
+    position: absolute;
+    top: 0;
+    right:1rem; 
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+}
+
+.item-image {
+    height: calc(300px - 125px);
+    width: auto; /*width:260px*/
+}
+
+.item-info {
+    width: auto;
+    height:75px;
+    color: #545454;
+}
+
+.order {
+    width: auto;
+    height: 50px;
+}
+
+.item-name {
+    color: #545454;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.price-quantity {
+    text-align: center;
+
+}
+
+.vegetable {
+    color: #136E38;
+}
+
+.diary {
+    color: rgb(0, 0, 195);
+}
+
+.cosmetics {
+    color: rgb(249, 75, 104);
+}
+.order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.order button {
+    border-radius: 20px;
+    padding: 3px 10px 3px 10px;
+    background-image: var(--minimal-red);
+    color: white;
+    box-shadow: 0 0 5px;
+}
+
+.discount h3 {
+    font-size: 2rem;
+}
+
+.green-gradient-bg {
+    background-image: var(--green-gradient);
+}
+
+.blue-gradient-bg {
+    background-image: linear-gradient(to right, #56ccf2, #2f80ed);;
+}
+
+.pink-gradient-bg{
+    background-image: linear-gradient(to right, #f953c6, #b91d73);;
+}
+
+
+
+#item-container1, #item-container2, #item-container3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+#product-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+
+}
+
+
+
+@media screen and (max-width:700px) {
+    #product-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+#venue-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.venue {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+#sources {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.venue img {
+    width: 300px;
+    height: 170px;
+    border: 1px solid black;
+}
